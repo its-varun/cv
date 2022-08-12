@@ -107,6 +107,7 @@
         width:95%;
         margin-top: 60px;
         margin-left:0px;
+        margin-bottom: 20px;
     }
     .greetings{
         font-size:50px;
@@ -121,6 +122,7 @@
         margin-left:0px;
         text-align: left;
         width:95%;
+        margin-bottom:50px;
     }
     .photo{
         margin-top: 0%;
@@ -132,6 +134,9 @@
         text-align: left;
         justify-content: space-around;
         width:100%;
+    }
+    .below_greeting{
+        font-size:27px;
     }
 
 }
