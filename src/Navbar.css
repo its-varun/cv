@@ -1,0 +1,39 @@
+.container{
+    width:100vw;
+    text-align: center;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.nav_holder{
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#4D4D4D;
+    font-family: Comic Sans MS, Comic Sans, cursive ;
+}
+
+.nav{
+    font-weight: bold;
+    color:gray;
+    transition-duration: 400ms;
+    text-decoration: none;
+}
+
+.nav:hover{
+    cursor: pointer;
+    color:#61D0D4;
+
+}
+@media only screen and (max-width:700px){
+    .nav_holder{
+        width:100%;
+    }
+    .nav{
+        font-size:10px;
+        margin-right:5%;
+        margin-left: 5%;
+    }
+}

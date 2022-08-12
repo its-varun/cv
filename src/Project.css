@@ -1,0 +1,34 @@
+.cards_container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.first{
+    width:40%;
+    height:100%;
+    margin-left: 10px;
+}
+.second{
+    width:40%;
+    margin-left: 50px;
+}
+.heading1{
+    color:#4D4D4D;
+    font-size:30px;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+@media only screen and (max-width:1000px){
+    .cards_container{
+        display: block;
+    }
+    .first{
+        width:90%;
+    }
+    .second{
+        margin-left:10px;
+        width:90%;
+    }
+}

@@ -1,0 +1,96 @@
+.support_input{
+    width:80%;
+    margin-left: 4%;
+    margin-top: 10px;
+    height:35px;
+    border:none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top:5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    color:white;
+    background-color: #E83556;
+}
+#submit_form{
+    height:40px;
+    width:130px;
+    color: white;
+    background-color:#E83556;
+    border-radius: 20px;
+    border:none;
+    margin-top: 20px;
+    font-weight: 550;
+    transition-duration: 0.5s;
+    margin-bottom: 15px;
+
+}
+::placeholder{
+    color:white;
+}
+#submit_form:hover{
+    cursor:pointer;
+    background-color:#4D4D4D;
+}
+
+
+*:focus{
+    outline:none;
+}
+.box{
+    width:45%;
+    height:100%;
+    margin-right: 20px;
+    
+}
+.box1{
+    text-align: center;
+
+}
+.heading{
+    margin-left:5%;
+    font-size:15px;
+    color:#4D4D4D;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.line{
+    background-color: red;
+    width:20%;
+    margin-left:5%;
+    border:none;
+    height:5px;
+}
+#main{
+    display: flex;
+    height:100%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.reason{
+    font-size: 90px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color:#4D4D4D;
+}
+
+@media only screen and (max-width:900px){
+    #main{
+        display: block;
+        text-align: center;
+        height:100vh;
+    }
+    .box{
+        width:90%;
+        height:10%;
+    }
+    .reason{
+        font-size: 50px;
+    }
+    .line{
+        margin-left:10%;
+        width:90%;
+    }
+}
